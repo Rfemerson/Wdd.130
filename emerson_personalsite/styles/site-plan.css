@@ -173,3 +173,17 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.icon {
+  width: 10%;
+}
+
+.aboutme {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.portfolio {
+  width: 600px;
+  margin-bottom: 50px;
+}
