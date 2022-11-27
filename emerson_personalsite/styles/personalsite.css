@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+:root {
+    --heading-font: "IM Fell French Canon SC";
+    --paragraph-font: Lato, Helvetica, sans-serif;
+  }
+
+#content {
+    max-width: 1600px;
+    margin-top: -8px;
+}
+
+.logo {
+    width: 90px;
+    padding: 5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#logo-link{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+header {
+    background-color: #011638;
+    color: #EEF0F2;
+    margin-left: -8px;
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-family: var(--paragraph-font);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-align: center;
+    color: #EEF0F2;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #808080;
+    color: #EEF0F2;
+    font-family: var(--paragraph-font);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 700px auto;
+}
+
+.msg h1 {
+    grid-column-start: 2;
+    grid-row: 1;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.msg p {
+    text-align: left;
+    margin-left: 50px;
+}
+
+main section {
+    text-align: center;
+    color: #023047;
+    font-family: var(--paragraph-font);
+}
+
+body {
+    background-color: #EEF0F2;
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#icon {
+    grid-column: 2;
+    margin-top: 190px;
+    width: 500px;
+    
+}
+
+.cards-linguagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 25px;
+}
+
+#js-icon {
+    width: 100px;
+    box-shadow: 5px 5px 10px #000000;
+    border-radius: 10px;
+}
+
+#html-icon {
+    width: 100px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 10px #000000;
+    border-radius: 10px;
+}
+
+#css-icon {
+    width: 100px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 10px #000000;
+    border-radius: 10px;
+}
+
+#python-icon {
+    width: 100px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 10px #000000;
+    border-radius: 100px;
+}
+
+#cypress-icon {
+    width: 100px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 10px #000000;
+    border-radius: 100px;
+}
+
+
+footer {
+    font-size: 1.2em;
+    background-color: #011638;
+    color: #EEF0F2;
+    padding: 25px 50px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    margin-top: 100px;
+    font-family: var(--paragraph-font);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #EEF7FB;
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+}
+
+footer .social img {
+    padding: 15px;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+    font-family: var(--paragraph-font);
+} 
